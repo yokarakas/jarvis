@@ -1,3 +1,5 @@
+> ⚠️ **This project is currently under active development.** If you'd like to contribute, share suggestions, or collaborate, feel free to reach out via Instagram: [**@yokarakas**](https://www.instagram.com/yokarakas)
+
 # ⚙️ MARK LS — JARVIS
 ### The Ultimate Cross-Platform Personal AI Assistant — By karakas
 
@@ -13,47 +15,66 @@ It's not just an assistant — it's an extension of your digital life.
 
 ---
 
-## 🚀 Capabilities & Features
+## 🚀 Complete Capabilities & Features
 
-### Core Capabilities
+### 🎙️ Core & Voice Capabilities
 | Feature | Description |
 |---|---|
-| 🎙️ Real-time Voice | Ultra-low latency conversation in any language via Gemini Live API |
-| 🕵️ Sherlock OSINT Search | Fast username footprint lookup across **400+ social media platforms** and websites using integrated Sherlock tools |
-| 📱 Remote Dashboard | Full remote phone control and device access via **QR code pairing** |
-| 🖥️ System Control | Launch apps, adjust volume/brightness, WiFi, shortcuts, power — all by voice |
-| 🧩 Autonomous Tasks | High-level planning for complex multi-step goals via agent mode |
-| 👁️ Visual Awareness | Real-time screen capture and webcam vision piped into your main Gemini session |
-| 🧠 Persistent Memory | Deeply remembers projects, preferences, and personal context across sessions |
-| ⌨️ Hybrid Input | Seamlessly switch between keyboard typing and voice commands |
-| 🌅 Morning Briefing | On first boot: greets you, reads the time, recaps yesterday, and fetches live news |
-| 🔔 Proactive 2.0 | Time-aware, context-aware check-ins — knows the time of day, your projects, and what you've been discussing |
-| 🗓️ Session Memory | Summarises each conversation and mentions it naturally next morning — consumed after use, never repeats |
-| 👁️‍🗨️ Background Monitoring | User-configured topic watching — checks for new headlines once a day and alerts naturally |
-| 📊 Hardware Monitoring | Continuous CPU, RAM, GPU and temperature telemetry with localized voice alerts |
-| 🌤️ Weather Report | Live weather data for your city, personalized from memory |
-| 🗺️ Dynamic Content Panel | Scrollable display layer beneath the HUD that renders web results, news, and search data |
-| 🔍 Multi-Mode Web Search | `news` / `research` / `price` / `compare` / `search` — Gemini Grounded first, DDG fallback |
-| ⏰ Smart Reminders | OS-native scheduled notifications (Windows Task Scheduler / macOS LaunchAgent / Linux systemd) |
-| ✈️ Flight Finder | Live flight price and availability lookup |
-| 🎮 Game Updater | Checks and triggers game updates on Steam and Epic Games on demand |
-| 📂 File Processor | Read, summarize, and answer questions about local files |
-| 💻 Code Helper | Inline code review, debugging, and generation |
-| 🌐 Browser Control | Open URLs, navigate tabs, and interact with the browser by voice |
-| 📨 Send Message | Compose and send messages through WhatsApp, Telegram, and more |
-| 🎬 YouTube Control | Search, play, and control YouTube playback by voice |
-| 🖱️ Desktop Control | Taskbar, window management, and desktop-level operations |
-| 🧑‍💻 Silent Language Memory | Detects spoken language on first use — all future sessions adapt automatically |
-| ⚡ Auto-Start on Boot | Registers with the OS startup system (registry / LaunchAgent / .desktop) |
-| 📋 Clipboard Intelligence | Copy any text → floating panel with Translate / Summarise / Explain / Fix |
-| 🎨 Assistant Customization | Change the assistant name and your name from the UI — takes effect immediately |
+| **Real-time Voice** | Ultra-low latency bidirectional audio conversation in any language via Gemini Live API |
+| **Silent Language Memory** | Automatically detects spoken language on first use and adapts all future sessions seamlessly |
+| **Hybrid Input** | Effortlessly switch between keyboard typing and voice interaction on demand |
+| **Assistant Customization** | Dynamically change assistant and user names from the UI with immediate effect |
+| **Auto-Start on Boot** | Configures native system startup services (Windows Registry, macOS LaunchAgent, Linux systemd/desktop) |
+
+### 🕵️ Intelligence & OSINT
+| Feature | Description |
+|---|---|
+| **Sherlock OSINT Search** | Fast username footprint lookup across **400+ social media platforms** and websites |
+| **Multi-Mode Web Search** | Dynamic `news` / `research` / `price` / `compare` / `search` modes via Gemini Grounded search with DuckDuckGo fallback |
+| **Clipboard Intelligence** | Automatic text capture floating HUD offering instant Translate, Summarize, Explain, or Code Fix actions |
+| **Flight Finder** | Direct querying for real-time flight options, prices, and route availability |
+
+### 📱 Device Control & System Automation
+| Feature | Description |
+|---|---|
+| **Remote Mobile Dashboard** | Full phone control, screen access, and remote trigger execution paired securely via QR code |
+| **OS System Control** | Launch applications, adjust system volume and brightness, manage WiFi, execute power commands, and trigger global shortcuts |
+| **Desktop & Window Management** | Direct manipulation of OS taskbars, active window focuses, and desktop workspace operations |
+| **Browser Integration** | Open URLs, manage active tabs, and navigate websites hands-free via voice commands |
+| **Messaging Integration** | Compose and deliver messages through integrated services like WhatsApp and Telegram |
+| **YouTube Media Controls** | Search media, trigger video playback, and adjust playback parameters via natural language |
+| **Autonomous Task Agent** | High-level goal planning and execution for complex, multi-step actions |
+
+### 👁️ Vision & Hardware Monitoring
+| Feature | Description |
+|---|---|
+| **Visual Awareness** | Real-time desktop screen streaming and webcam video feeds piped directly into active Gemini sessions |
+| **Hardware Telemetry** | Continuous real-time monitoring of CPU, RAM, GPU, and temperature metrics with localized voice warnings |
+| **Dynamic Content Panel** | Scrollable UI layer under the main HUD displaying web pages, news previews, and search data |
+
+### 🧠 Persistent Context & Memory System
+| Feature | Description |
+|---|---|
+| **Persistent Memory** | Long-term memory store tracking projects, preferences, and multi-session contextual data |
+| **Morning Briefing** | Boot sequence routine: greets the user, announces time, recaps previous context, and pulls live daily news |
+| **Proactive 2.0 Check-ins** | Contextual proactive prompts based on time of day, active projects, and past conversation threads |
+| **Session Memory** | Auto-summarizes ended sessions and references relevant context the following morning before expiring safely |
+| **Background Topic Monitor** | User-defined daily background monitoring for specific news or topic headlines |
+| **Weather Integration** | Real-time city weather updates tailored using stored location memory |
+
+### 💻 Developer & Utility Tools
+| Feature | Description |
+|---|---|
+| **Code Helper Agent** | Inline code review, debugging assistance, refactoring, and code generation |
+| **File Processing** | Direct file inspection, content summarization, and query execution against local document files |
+| **Smart OS Reminders** | System-native scheduled notifications leveraging native schedulers (Task Scheduler / LaunchAgent / systemd) |
+| **Game Updater** | On-demand status checks and update triggers for Steam and Epic Games libraries |
 
 ---
 
 ## ⚡ Quick Start
 
-```bash
-git clone [https://github.com/yokarakas/jarvis.git](https://github.com/yokarakas/jarvis.git)
-cd jarvis
+git clone https://github.com/yokarakas/jarvis.git
+cd Mark-LS
 pip install -r requirements.txt
 python main.py
