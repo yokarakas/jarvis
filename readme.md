@@ -74,7 +74,19 @@ It's not just an assistant — it's an extension of your digital life.
 
 ## ⚡ Quick Start
 
+```bash
 git clone https://github.com/yokarakas/jarvis.git
 cd Mark-LS
 pip install -r requirements.txt
 python main.py
+```
+
+
+## 👤 Connect with the Creator
+
+Engineered by a developer building a real-world JARVIS-style assistant.
+⭐ **Star the repository to support the journey to Mark 100.**
+
+| Platform | Link |
+| --- | --- |
+| Instagram | [@yokarakas](https://www.instagram.com/yokarakas) |
