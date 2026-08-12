@@ -85,7 +85,7 @@ python main.py
 ## 👤 Connect with the Creator
 
 Engineered by a developer building a real-world JARVIS-style assistant.
-⭐ **Star the repository to support the journey to Mark 100.**
+⭐ **Star the repository to support the journey .**
 
 | Platform | Link |
 | --- | --- |
