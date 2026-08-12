@@ -1,0 +1,9 @@
+.env
+*.env
+venv/
+env/
+__pycache__/
+node_modules/
+*.log
+.vscode/
+long_term.json
